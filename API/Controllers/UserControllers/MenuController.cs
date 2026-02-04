@@ -54,7 +54,7 @@ namespace API.Controllers.UserControllers
 
         }
         [HttpPost("getmenusandsubmenus")]
-        public async Task<IActionResult> GetMenusAndSubMenus([FromBody] EncryptedDataVM Details)
+        public async Task<IActionResult> GetMenusAndSubMenusTest([FromBody] EncryptedDataVM Details)
         {
             try
             {
